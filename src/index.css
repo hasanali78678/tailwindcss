@@ -1,0 +1,292 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NavBar Start */
+.theme-container{
+    @apply w-full lg:h-[45px] lg:px-14 sticky top-0 bg-black z-10 ;
+}
+.theme-header{
+    @apply lg:w-full lg:flex m-auto xs:text-white md:text-white
+}
+.theme-toggle{
+    @apply md:flex md:justify-between md:items-center md:px-4 xs:flex xs:justify-between xs:items-center xs:px-4
+}
+.theme-logo{
+    @apply w-[85px] h-[45px] flex justify-start items-center cursor-pointer;
+}
+.theme-user-md{
+    @apply lg:hidden text-neutral-300 bg-neutral-500 md:w-[30px] md:h-[30px] md:flex md:justify-center md:items-center xs:w-[30px] xs:h-[30px] xs:flex xs:justify-center xs:items-center;
+}
+.theme-NavBar{
+    @apply lg:w-[90%] lg:h-[45px] lg:ml-14 lg:flex lg:justify-between lg:items-center text-white lg:font-medium lg:text-[15px] lg:cursor-pointer md:px-3 xs:px-3 md:flex-col  md:bg-black xs:flex-col  xs:bg-black;
+}
+.theme-ul{
+    @apply lg:flex lg:justify-start lg:items-center md:w-full;
+}
+.theme-list{
+    @apply lg:flex lg:justify-center lg:items-center lg:hover:text-black lg:hover:bg-white lg:w-[100px] lg:h-[45px] md:border-y md:py-5 md:text-[23px] md:px-5  md:flex md:justify-between 
+    xs:border-y xs:py-5 xs:text-[23px] xs:px-5  xs:flex xs:justify-between no-underline ; 
+}
+.theme-drop-icon{
+    @apply md:flex md:justify-center xs:flex xs:justify-center items-center lg:hidden;
+}
+.theme-list2{
+    @apply lg:hover:text-black lg:hover:bg-white lg:w-[100px] lg:h-[45px]  lg:flex lg:justify-center lg:items-center md:border-y md:py-5 md:text-[23px] md:px-5  md:flex md:justify-between xs:border-b xs:py-5 xs:text-[23px] xs:px-5  xs:flex xs:justify-between ;
+}
+.theme-download{
+    @apply lg:flex lg:justify-center lg:items-center md:w-full md:flex md:justify-center md:items-center md:flex-col xs:w-full xs:flex xs:justify-center xs:items-center xs:flex-col;
+}
+.theme-donw-text{
+    @apply md:flex md:justify-center md:items-center md:py-6 xs:flex xs:justify-center xs:items-center xs:py-6;
+}
+.theme-down-icon{
+    @apply lg:mx-2 md:ml-2 xs:ml-2 text-[13px];
+}
+.theme-seacrh-md{
+    @apply lg:mx-14 text-neutral-100 bg-neutral-800 hover:text-neutral-400 lg:rounded-[50%] lg:text-[18px] lg:flex lg:justify-center lg:items-center lg:w-[25px] lg:h-[25px] md:flex md:justify-start md:items-center md:text-[15px]  md:rounded-full md:pl-2 md:w-[730px] md:h-[40px] md:text-[#919191] md:my-4 xs:flex xs:justify-start xs:items-center xs:text-[15px] xs:rounded-full xs:pl-2 xs:w-[330px] xs:h-[40px] xs:text-[#919191] xs:my-4;
+}
+.theme-secarh-icon{
+    @apply lg:hidden md:pl-2 md:text-white xs:pl-2 xs:text-white;
+}
+.theme-user-lg{
+    @apply text-neutral-300 md:hidden xs:hidden lg:bg-neutral-500 hover:text-neutral-400 hover:bg-neutral-200  lg:flex lg:justify-center lg:items-center lg:w-[30px] lg:h-[30px] ;
+}
+/* NavBar End */
+
+
+
+/* Play Drop Down Start */
+
+.theme-Play{
+    @apply lg:w-[1469px] lg:h-[510px]  top-11 absolute hidden text-gray-800 bg-white group-hover:block md:hidden xs:hidden  lg:rounded-b-md drop-shadow-md;
+}
+.theme-con{
+    @apply lg:flex lg:justify-between items-center flex-row;
+}
+.theme-content{
+    @apply lg:flex lg:justify-start lg:items-start;  
+}
+.theme-firstSide{
+    @apply lg:w-[280px];
+}
+.theme-categroy{
+    @apply lg:text-[10px] lg:font-bold lg:border-b lg:pb-2;
+}
+.theme-categroy-li{
+    @apply lg:py-2 lg:text-[14px]
+}
+.theme-Discover{
+    @apply lg:bg-cover lg:w-[600px] lg:h-[350px];
+}
+
+.theme-Btn-con{
+    @apply lg:flex lg:justify-center lg:items-end  ;
+}
+.theme-Btn{
+    @apply  rounded-full text-[15px] h-[35px] text-white bg-pink-600 ;
+}
+
+/* Play Drop Down End */
+
+/* Shop Drop Down  start*/
+.theme-MostPopular{
+    @apply lg:w-[550px] lg:h-[350px] ;
+}
+.theme-MostCard{
+    @apply lg:flex lg:justify-between lg:items-start lg:leading-7;
+}
+.theme-Cards{
+    @apply  lg:hover:underline lg:cursor-pointer lg:mt-5; 
+}
+.theme-CardImg{
+    @apply bg-slate-100 lg:flex lg:justify-center lg:items-center lg:flex-col lg:w-[170px] lg:h-[180px];
+}
+.theme-MCardImage{
+    @apply   lg:w-[120px] lg:h-[150px];
+}
+.theme-MCardTitle{
+    @apply lg:text-black mt-2 font-medium lg:w-[160px];
+}
+.theme-Edition{
+    @apply lg:text-[13px]
+}
+.theme-Price{
+    @apply lg:text-pink-600 lg:text-[18px]; 
+}
+/* Shop Drop Down end*/
+
+/* Explore Drop Down Start*/
+
+
+.theme-ExCardsImg{
+    @apply  lg:w-[180px] lg:h-[100px];
+}
+.theme-ExTitle{
+    @apply lg:ml-6 font-medium lg:w-[220px] 
+}
+.theme-ExpInD{
+    @apply lg:w-[310px] lg:h-[510px] lg:text-black bg-slate-100 lg:pl-10 lg:pr-14 lg:py-6;
+}
+.theme-InsideLink{
+    @apply text-pink-600 lg:py-2
+}
+/* Explore Drop Down end*/
+
+/* Help Drop Down start*/
+.theme-HelpDiscover{
+    @apply lg:bg-cover lg:w-[250px] lg:h-[250px] 
+}
+.theme-HelpTile{
+    @apply text-[14px] mt-5
+}
+.theme-Inside{
+    @apply  w-[600px] flex justify-start items-start
+}
+.theme-InSideImg{
+    @apply bg-cover bg-center w-[600px] h-[270px]
+}
+.theme-UConTitle{
+    @apply w-[600px] text-[14px]
+}
+/* Help Drop Down end*/
+
+/* Slider Start */
+
+.theme-slider-container{
+    @apply lg:bg-cover lg:h-[850px] md:bg-cover md:bg-center xs:bg-center md:h-[800px] xs:bg-cover  xs:h-[565px] ;
+}
+.theme-slider-logo{
+    @apply lg:w-[230px] lg:cursor-pointer md:w-[250px] xs:w-[185px];
+}
+.theme-slider-content{
+    @apply lg:max-w-[1100px] flex justify-end items-center lg:h-[600px] flex-col m-auto xs:w-[345px] md:flex md:justify-end md:items-center md:mt-16  md:w-[600px] md:h-[600px] md:pb-8  xs:mt-10 font-medium;
+}
+.theme-slider-con-text{
+    @apply text-white  text-center drop-shadow-lg md:flex md:justify-end md:items-center md:flex-col xs:flex xs:justify-end xs:items-center xs:flex-col;
+}
+.theme-slider-con-heading{
+    @apply text-[35px] font-sans md:leading-none  md:text-[60px] xs:leading-8 xs:w-[150px];
+}
+.theme-slider-con-paragraph{
+    @apply lg:text-[25px] font-sans md:text-[25px] md:text-center md:leading-6 md:mt-5 xs:text-center xs:leading-6 xs:mt-5 xs:text-[18px];
+}
+.theme-slider-con-btn{
+    @apply lg:flex lg:justify-between lg:items-center lg:w-[500px] lg:h-[100px]  font-medium mt-6 md:flex md:justify-center md:items-center md:w-[600px] md:pt-10 xs:flex xs:justify-center xs:items-center xs:w-[345px];
+}
+.theme-slider-btn-con{
+    @apply  lg:w-[230px]  rounded-full lg:text-[15px] lg:h-[50px] text-white bg-sky-600 md:w-[260px] md:h-[50px] md:mx-5 md:text-[17px] xs:w-[160px] xs:h-[40px] xs:mx-2 xs:text-[14px];
+}
+.theme-slider-card-log{
+    @apply flex justify-center items-center lg:w-[270px] lg:h-[100px] lg:mt-14 md:w-[300px] md:mt-10 xs:w-[270px] xs:mt-5
+}
+/* Slider End */
+
+/* Play Paeg Start*/
+/* More Gemes Start */
+.theme-MoreGame{
+    @apply bg-[#2a2b2f] lg:w-full lg:px-14 lg:py-8 md:w-full md:px-8 md:py-5 xs:w-full xs:px-8 xs:py-5;
+}
+.theme-MoreGamesTitle{
+    @apply text-white lg:text-[35px] lg:font-bold md:text-[30px] md:font-bold xs:text-[25px] xs:font-bold;
+}
+.theme-MoreGameCover{
+    @apply  lg:w-full lg:flex lg:justify-center lg:items-end lg:h-[540px] lg:pb-10 md:w-full md:flex md:justify-center md:items-end ;
+}
+.theme-MoreGameCoverIMG{
+    @apply lg:bg-cover lg:bg-center lg:w-[1330px] lg:h-[450px] md:bg-cover md:bg-center md:w-full md:h-[270px] xs:bg-cover xs:bg-center xs:w-full xs:h-[600px];
+}
+
+/* AC LOGO and Btn start */
+
+.theme-ACLogoMCon{
+    @apply lg:pl-10 xs:pt-10
+}
+.theme-ACLogoM{
+    @apply lg:bg-cover lg:w-[200px] lg:h-[220px] md:hidden  lg:pl-24 xs:bg-cover xs:w-[220px] xs:h-[230px];
+}
+.theme-ACLogoAndBtn{
+    @apply lg:w-full lg:m-auto lg:h-[450px] lg:flex lg:justify-between lg:items-end lg:flex-row lg:pb-8  lg:px-40 xs:w-full xs:m-auto xs:h-[570px] xs:flex xs:justify-between xs:items-center xs:flex-col;
+}
+.theme-AcBtnCon{
+    @apply lg:pr-32;
+}
+.theme-ACBtn{
+    @apply lg:w-[280px] lg:h-[50px] lg:bg-[#e22026] lg:text-white lg:text-[15px] lg:rounded-full lg:font-bold lg:hover:text-[#e22026]  xs:w-[280px] xs:h-[50px] xs:bg-[#e22026] xs:text-white xs:text-[15px] xs:rounded-full xs:font-bold lg:hover:bg-white lg:hover:border-2 lg:hover:border-[#e22026] md:hidden;
+}
+
+/* AC LOGO end */
+
+/* SortBy Start*/
+
+.theme-SortByContent{
+    @apply lg:w-full lg:px-14 md:w-full md:px-[20px]
+}
+.theme-SortBySelect{
+    @apply lg:flex lg:justify-between lg:items-center lg:h-[50px] lg:mb-10 md:flex md:justify-between md:items-center md:h-[90px] xs:flex xs:justify-center xs:items-center xs:h-[90px];
+}
+.theme-SortByTitle{
+    @apply lg:text-[35px] lg:font-bold md:text-[35px] md:font-bold xs:text-[30px];
+}
+.theme-SortByoption{
+    @apply lg:flex lg:justify-center lg:items-center text-[#d80388] lg:border-[#d80388] lg:border-b-2  md:flex md:justify-center md:items-center md:text-[16px] md:border-[#d80388] md:border-b-2 xs:hidden;
+}
+
+/* filter icon start*/
+
+.theme-Filter{
+    @apply lg:hidden md:hidden xs:w-[35px] xs:h-[50px] xs:flex xs:justify-center xs:items-center xs:ml-1;
+}
+
+/* filter icon end */
+
+/* SORT LOAD Btn Start */
+
+.theme-SortLoadBtnCon{
+    @apply lg:w-full lg:h-[50px] lg:flex lg:justify-center lg:items-center md:w-full md:h-[150px] md:flex md:justify-center md:items-center xs:w-full xs:h-[40px] xs:my-5 xs:flex xs:justify-center xs:items-center;
+}
+.theme-SortLoadBtn{
+    @apply lg:w-[150px] lg:h-[45px] lg:bg-[#d80388] lg:text-white lg:font-bold lg:rounded-full lg:text-[15px] md:w-[150px] md:h-[45px] md:bg-[#d80388] md:text-white md:font-bold md:rounded-full md:text-[15px] xs:w-[150px] xs:h-[45px] xs:bg-[#d80388] xs:text-white xs:font-bold xs:rounded-full  xs:text-[15px] lg:hover:text-[#d80388] lg:hover:bg-white lg:hover:border-2 lg:hover:border-[#d80388]
+}
+/* SORT LOAD Btn End */
+
+/* SortBy end */
+
+/* More game end */
+
+/*  */
+.theme-FavGames{
+    @apply lg:w-full md:w-full  xs:w-full ;
+}
+/*  */
+
+/* Play Page End */
+
+
+
+
+
+/* Shop page Start */
+.theme-Cover-containerLg{
+    @apply lg:bg-cover lg:h-[200px] md:bg-cover md:bg-center xs:bg-center md:h-[300px] xs:bg-cover  xs:h-[565px] md:hidden xs:hidden
+}
+.theme-Cover-containerMd{
+ @apply lg:bg-cover lg:h-[200px] md:bg-cover md:bg-center md:h-[200px] md:px-14  xs:bg-cover xs:bg-center xs:h-[200px] xs:py-5 xs:px-14 lg:hidden 
+}
+.theme-Shop-Slider-Content{
+    @apply lg:w-full lg:pt-10 lg:pl-20 md:w-full  md:px-8 md:flex-wrap md:pt-28  xs:px-1.5   xs:flex-wrap xs:pt-28
+}
+
+.theme-Shop-Slider{
+    @apply  lg:w-[380px] lg:h-[150px] lg:px-1 md:w-[350px] md:h-[150px] md:px-1 xs:w-[180px] xs:h-[100px] xs:px-1
+}
+.theme-NextAdventure-Content{
+    @apply lg:w-full lg:h-[80px] text-white lg:pl-20 lg:py-10 md:w-full md:h-[80px] md:pl-10 md:py-20 xs:w-full xs:h-[80px] xs:pl-5 xs:py-10
+}
+.theme-NextAdventure-Title{
+    @apply lg:border-b-4 lg:border-white lg:w-[280px] lg:text-[25px] md:border-b-4 md:border-white md:w-[225px] md:text-[20px] xs:border-b-4 xs:border-white xs:w-[230px] xs:text-[20px] 
+}
+.theme-JoinUbiSoftImg{
+    @apply lg:bg-cover lg:w-full lg:h-[250px] md:bg-cover md:w-full md:bg-center md:h-[40g0px]
+}
+/* Shop page Start */
