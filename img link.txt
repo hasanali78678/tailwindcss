@@ -1,8 +1,0 @@
-mobie img
-https://store.ubisoft.com/on/demandware.static/-/Library-Sites-shared-library-web/default/dw16dc294e/images/category-banners/HomeHero_Ubisoft+_NewPlans-Dec23_Generic-v3_tab.jpg
-
-tab img
-https://store.ubisoft.com/on/demandware.static/-/Library-Sites-shared-library-web/default/dwf913b9fc/images/category-banners/HomeHero_Ubisoft+_NewPlans-Dec23_Generic-v3_mob.jpg
-
-pc img
-https://store.ubisoft.com/on/demandware.static/-/Library-Sites-shared-library-web/default/dwe8f65fd7/images/category-banners/HomeHero_Ubisoft+_NewPlans-Dec23_Generic-v3_desk.jpg

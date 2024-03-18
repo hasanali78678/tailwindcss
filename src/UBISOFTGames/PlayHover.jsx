@@ -4,12 +4,12 @@ import Btn from './Button';
 const Hover = () => {
     return(
         <React.Fragment>
-            <div class="theme-Play left-[-140px] px-5">
+            <div class="theme-Play lg:left-[-140px] px-5 xs:left-[-0px] xs:z-50">
                 <div className="theme-con lg:px-12 lg:py-6">
                     <div className="theme-content">
                         <div className="theme-firstSide">
                             <div className="">
-                                <div>
+                                <div className="xs:hidden ">
                                     <Heading 
                                         className='theme-categroy'
                                         title={'BROWSE BY CATEGORY'}
@@ -23,7 +23,7 @@ const Hover = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="">
+                            <div className="xs:hidden">
                                 <div>
                                     <Heading 
                                         className='theme-categroy lg:pt-5'
@@ -41,14 +41,14 @@ const Hover = () => {
                                         </ul>
                                     </div>
                             </div>
-                            <div className="theme-Btn-con lg:w-[550px] lg:mt-4">
+                            <div className="theme-Btn-con lg:w-[550px] lg:mt-4 xs:hidden">
                                 <Btn 
                                     className='theme-Btn bg-pink-600 w-[230px] '
                                     title={'VIEW ALL GAMES'}
                                 />
                             </div>
                         </div>
-                        <div className="lg:mx-8">
+                        <div className="lg:mx-8 xs:hidden">
                             <div>
                                 <Heading 
                                     className='theme-categroy'
@@ -71,7 +71,7 @@ const Hover = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:ml-5 ">
+                    <div className="lg:ml-5 xs:hidden">
                         <div>
                             <Heading 
                                 className='theme-categroy'

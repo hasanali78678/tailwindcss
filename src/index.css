@@ -10,7 +10,7 @@
     @apply lg:w-full lg:flex m-auto xs:text-white md:text-white
 }
 .theme-toggle{
-    @apply md:flex md:justify-between md:items-center md:px-4 xs:flex xs:justify-between xs:items-center xs:px-4
+    @apply md:flex md:justify-between md:items-center md:px-4 xs:flex xs:justify-between xs:items-center xs:px-4 xs:text-[25px];
 }
 .theme-logo{
     @apply w-[85px] h-[45px] flex justify-start items-center cursor-pointer;
@@ -59,7 +59,7 @@
 /* Play Drop Down Start */
 
 .theme-Play{
-    @apply lg:w-[1469px] lg:h-[510px]  top-11 absolute hidden text-gray-800 bg-white group-hover:block md:hidden xs:hidden  lg:rounded-b-md drop-shadow-md;
+    @apply lg:w-[1469px] lg:h-[510px]  top-11 absolute hidden lg:text-black bg-white group-hover:block md:hidden xs:w-full xs:bg-black xs:text-white lg:rounded-b-md drop-shadow-md xs:text-[15px];
 }
 .theme-con{
     @apply lg:flex lg:justify-between items-center flex-row;

@@ -9,7 +9,7 @@ export default function NavBar (){
         return(
         <React.Fragment>
         <div className="theme-container">
-            <div className="theme-header">
+            <div className="theme-header xs:z-50 md:z-50">
                 <div className="theme-toggle">
                     <spna onClick={()=>setOpen(!open)} className="lg:hidden">
                         <ion-icon  name={open ? 'close' : 'menu'}></ion-icon>
