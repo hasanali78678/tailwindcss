@@ -1,0 +1,5 @@
+const date = new Date('2024-03-18');
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+const monthString = months[date.getMonth()];
+console.log("monsdfahfdhsfa",monthString); // Output will be "March"
