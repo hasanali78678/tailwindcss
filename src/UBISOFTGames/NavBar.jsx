@@ -9,9 +9,9 @@ export default function NavBar() {
   return (
     <div className="theme-container">
       <div className="theme-header xs:z-50 md:z-50">
-        <div className="theme-toggle">
-          <spna onClick={() => setOpen(!open)} className="lg:hidden">
-            <div>{open ? <i class="fa-solid fa-xmark"></i> : <i class="fa-solid fa-ellipsis-vertical"></i>}</div>
+        <div className="theme-toggle ">
+          <spna onClick={() => setOpen(!open)} className="lg:hidden xs:w-[30px]">
+            <p>{open ? <i class="fa-solid fa-xmark"></i> : <i class="fa-solid fa-ellipsis-vertical"></i>}</p>
           </spna>
           <LogoImg />
           <span className="theme-user-md">
