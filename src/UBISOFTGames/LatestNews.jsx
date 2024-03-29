@@ -51,7 +51,7 @@ const LatestNews = () => {
                         GameTitle={"Prince of Persia: The Lost Crown – Accessibility Spotlight"}
                     />
                     <GameCards 
-                        classNameContent={'lg:w-[550px] lg:flex lg:mx-3 lg:col-span-1 lg:hover:underline cursor-pointer xs:my-[20px] border '}
+                        classNameContent={'lg:w-[550px] lg:flex lg:mx-3 lg:col-span-1 lg:hover:underline cursor-pointer xs:my-[20px]'}
                         classNameImage={' lg:w-[310px] lg:h-[170px] md:w-[720px]'}
                         classNameTitle={'lg:ml-6  md:text-[20px] font-medium lg:w-[250px] xs:h-[72px] xs:py-2 xs:pr-1 '}
                         CardImage={'https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1Y9Cz1owbId5aultJxHvq6/3dc2e7e5f530524521773fe5101e084f/POPTLC_midrez_launch_1_180124_9AM.jpg'}

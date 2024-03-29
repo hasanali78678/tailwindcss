@@ -11,7 +11,7 @@ export default function NavBar() {
       <div className="theme-header xs:z-50 md:z-50">
         <div className="theme-toggle">
           <spna onClick={() => setOpen(!open)} className="lg:hidden">
-            <ion-icon name={open ? "close" : "menu"}></ion-icon>
+            <div>{open ? <i class="fa-solid fa-xmark"></i> : <i class="fa-solid fa-ellipsis-vertical"></i>}</div>
           </spna>
           <LogoImg />
           <span className="theme-user-md">

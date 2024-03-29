@@ -18,7 +18,7 @@ const Hover = () => {
                                 <div>
                                     <ul>
                                         <li className="theme-categroy-li"><a href="/Play">Featured</a></li>
-                                        <li className="theme-categroy-li"><a href="/Shop">New To Old</a></li>
+                                        <li className="theme-categroy-li"><a href="">New To Old</a></li>
                                         <li className="theme-categroy-li"><a href="">Free To Play</a></li>
                                     </ul>
                                 </div>
