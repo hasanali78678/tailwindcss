@@ -5,12 +5,12 @@ import MostCard from './ShopMoastP';
 const ShopHover = () => {
     return(
         <React.Fragment>
-            <div className="theme-Play left-[-240px] px-5 xs:left-[-0px] xs:z-50">
+            <div className="theme-Play left-[-240px] px-5 md:left-[-0px] md:z-50 xs:left-[-0px] xs:z-50">
                 <div className="theme-con lg:px-12 lg:py-6">
                     <div className="theme-content">
                         <div className="theme-firstSide ">
                             <div className="lg:h-[405px]">
-                                <div className="xs:hidden">
+                                <div className="md:hidden xs:hidden">
                                     <Heading 
                                         className='theme-categroy'
                                         title={'BROWSE BY PLATFORM'}
@@ -26,21 +26,21 @@ const ShopHover = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="theme-Btn-con lg:w-[550px] lg:mt-4 xs:hidden">
+                            <div className="theme-Btn-con lg:w-[550px] lg:mt-4 md:hidden xs:hidden">
                                 <Btn 
                                     className='theme-Btn  w-[230px] '
                                     title={'UBISOFT STORE'}
                                 />
                             </div>
                         </div>
-                        <div className="lg:mx-8 xs:hidden">
+                        <div className="lg:mx-8 md:hidden xs:hidden">
                             <div>
                                 <Heading 
                                     className='theme-categroy'
                                     title={'SHOP BY GAME'}
                                 />
                             </div>
-                            <div className="xs:hidden">
+                            <div className="md:hidden xs:hidden">
                                 <ul>
                                     <li className="theme-categroy-li"><a href="">Skull and Bones</a></li>
                                     <li className="theme-categroy-li"><a href="">Rainbow Six Siege</a></li>
@@ -56,7 +56,7 @@ const ShopHover = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:ml-5 lg:w-[550px] xs:hidden">
+                    <div className="lg:ml-5 lg:w-[550px] md:hidden xs:hidden">
                         <div>
                             <Heading 
                                 className='theme-categroy'
@@ -103,7 +103,7 @@ const ShopHover = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="theme-Btn-con lg:w-[600px] lg:mt-11 xs:hidden">
+                        <div className="theme-Btn-con lg:w-[600px] lg:mt-11 md:hidden xs:hidden">
                             <Btn 
                                 className='theme-Btn w-[180px] '
                                 title={'VIEW ALL'}

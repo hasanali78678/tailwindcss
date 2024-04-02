@@ -14,7 +14,7 @@ export default function NavBar() {
     <div className="theme-container">
       <div className="theme-header xs:z-50 md:z-50">
         <div className="theme-toggle ">
-          <div onClick={() => setOpen(!open)} className="lg:hidden xs:w-[30px]">
+          <div onClick={() => setOpen(!open)} className="lg:hidden w-[30px]">
             <p>{open ? <i className="fa-solid fa-xmark"></i> : <i className="fa-solid fa-ellipsis-vertical"></i>}</p>
           </div>
           <LogoImg />
@@ -34,10 +34,10 @@ export default function NavBar() {
                 setArrowexplore(false);
                 setArrowhlep(false);
               }}>
-                {arrowhover ? <i className="fa-solid fa-angle-up xs:mb-20"></i> : <i className="fa-solid fa-angle-down"></i>}
+                {arrowhover ? <i className="fa-solid fa-angle-up md:mb-28 xs:mb-20"></i> : <i className="fa-solid fa-angle-down"></i>}
               </p>
               </div>
-              <div className={`${arrowhover ? "xs:flex xs:h-[80px]" : "xs:hidden"} `}>
+              <div className={`${arrowhover ? "md:flex xs:flex md:h-[140px] xs:h-[80px]" : "md:hidden xs:hidden"} `}>
                 <Hover />
               </div>
             </li>
@@ -51,10 +51,10 @@ export default function NavBar() {
                 setArrowexplore(false);
                 setArrowhlep(false);
               }}>
-                {arrowshop ? <i className="fa-solid fa-angle-up xs:mb-20"></i> : <i className="fa-solid fa-angle-down"></i>}
+                {arrowshop ? <i className="fa-solid fa-angle-up md:mb-40 xs:mb-20"></i> : <i className="fa-solid fa-angle-down"></i>}
               </p>
             </div>
-            <div className={`${arrowshop ? "xs:flex xs:h-[100px]" : "xs:hidden"} `}>
+            <div className={`${arrowshop ? "md:flex xs:flex md:h-[200px] xs:h-[100px]" : "md:hidden xs:hidden"} `}>
               <ShopHover />
             </div>
             </li>
@@ -66,10 +66,10 @@ export default function NavBar() {
                 setArrowhover(false);
                 setArrowshop(false);
                 setArrowhlep(false);
-              }} className="xs:w-full xs:flex xs:justify-end">
+              }} className="md:w-full md:flex md:justify-end xs:w-full xs:flex xs:justify-end lg:hidden">
                 {arrowexplore ? <i className="fa-solid fa-angle-up"></i> : <i className="fa-solid fa-angle-down"></i>}
               </p>
-              <div className={`${arrowexplore ? "xs:flex xs:h-[300px]" : "xs:hidden"} `}>
+              <div className={`${arrowexplore ? "md:flex xs:flex md:h-[500px] xs:h-[300px]" : "md:hidden xs:hidden"} `}>
               <ExploreDrop />
               </div>
             </li>
@@ -81,10 +81,10 @@ export default function NavBar() {
                 setArrowhover(false);
                 setArrowshop(false);
                 setArrowexplore(false);
-              }} className="xs:w-full xs:flex xs:justify-end">
+              }} className="md:w-full md:flex md:justify-end xs:w-full xs:flex xs:justify-end lg:hidden">
                 {arrowhlep ? <i className="fa-solid fa-angle-up"></i> : <i className="fa-solid fa-angle-down"></i>}
               </p>
-              <div className={`${arrowhlep ? "xs:flex xs:h-[350px]" : "xs:hidden"} `}>
+              <div className={`${arrowhlep ? "md:flex xs:flex md:h-[340px] xs:h-[350px]" : "md:hidden xs:hidden"} `}>
               <HelpDrop />
               </div>
             </li>
