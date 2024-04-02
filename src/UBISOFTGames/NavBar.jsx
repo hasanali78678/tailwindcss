@@ -6,7 +6,10 @@ import ExploreDrop from "./ExploreDropDwon";
 import HelpDrop from "./HelpDrop";
 export default function NavBar() {
   const [open, setOpen] = useState(false);
-  const [arrow, setArrow] = useState(false);
+  const [arrowhover, setArrowhover] = useState(false);
+  const [arrowshop, setArrowshop] = useState(false);
+  const [arrowexplore, setArrowexplore] = useState(false);
+  const [arrowhlep, setArrowhlep] = useState(false);
   return (
     <div className="theme-container">
       <div className="theme-header xs:z-50 md:z-50">
@@ -24,31 +27,65 @@ export default function NavBar() {
             <li className="theme-list group relative">
               PLAY
               <div className="theme-drop-icon">
-                <p onClick={() => setArrow(!arrow)}>{arrow ? <i className="fa-solid fa-angle-up xs:mb-20"></i> :  <i className="fa-solid fa-angle-down"></i>}</p>
+              <p onClick={() => {
+                setArrowhover(!arrowhover);
+                // Ensure to hide the shop content when toggling hover content
+                setArrowshop(false);
+                setArrowexplore(false);
+                setArrowhlep(false);
+              }}>
+                {arrowhover ? <i className="fa-solid fa-angle-up xs:mb-20"></i> : <i className="fa-solid fa-angle-down"></i>}
+              </p>
               </div>
-              <div className={`${arrow ? "xs:flex xs:h-[80px]" : "xs:hidden"} `}>
+              <div className={`${arrowhover ? "xs:flex xs:h-[80px]" : "xs:hidden"} `}>
                 <Hover />
               </div>
             </li>
             <li className="theme-list2 group relative">
               SHOP
-              <ShopHover />
               <div className="theme-drop-icon">
-                <i className="fa-solid fa-angle-down"></i>
-              </div>
+              <p onClick={() => {
+                setArrowshop(!arrowshop);
+                // Ensure to hide the hover content when toggling shop content
+                setArrowhover(false);
+                setArrowexplore(false);
+                setArrowhlep(false);
+              }}>
+                {arrowshop ? <i className="fa-solid fa-angle-up xs:mb-20"></i> : <i className="fa-solid fa-angle-down"></i>}
+              </p>
+            </div>
+            <div className={`${arrowshop ? "xs:flex xs:h-[100px]" : "xs:hidden"} `}>
+              <ShopHover />
+            </div>
             </li>
             <li className="theme-list2 group relative">
               EXPLORE
+              <p onClick={() => {
+                setArrowexplore(!arrowexplore);
+                // Ensure to hide the hover content when toggling explore content
+                setArrowhover(false);
+                setArrowshop(false);
+                setArrowhlep(false);
+              }} className="xs:w-full xs:flex xs:justify-end">
+                {arrowexplore ? <i className="fa-solid fa-angle-up"></i> : <i className="fa-solid fa-angle-down"></i>}
+              </p>
+              <div className={`${arrowexplore ? "xs:flex xs:h-[300px]" : "xs:hidden"} `}>
               <ExploreDrop />
-              <div className="theme-drop-icon">
-                <i className="fa-solid fa-angle-down"></i>
               </div>
             </li>
             <li className="theme-list2 group relative">
               HELP
+              <p onClick={() => {
+                setArrowhlep(!arrowhlep);
+                // Ensure to hide the hover content when toggling hlep content
+                setArrowhover(false);
+                setArrowshop(false);
+                setArrowexplore(false);
+              }} className="xs:w-full xs:flex xs:justify-end">
+                {arrowhlep ? <i className="fa-solid fa-angle-up"></i> : <i className="fa-solid fa-angle-down"></i>}
+              </p>
+              <div className={`${arrowhlep ? "xs:flex xs:h-[350px]" : "xs:hidden"} `}>
               <HelpDrop />
-              <div className="theme-drop-icon">
-                <i className="fa-solid fa-angle-down"></i>
               </div>
             </li>
           </ul>

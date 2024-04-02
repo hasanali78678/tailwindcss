@@ -5,12 +5,12 @@ import Paragraph from "./Paragraph";
 const HelpDrop = () => {
     return(
         <React.Fragment>
-            <div className="theme-Play left-[-440px] px-5">
+            <div className="theme-Play left-[-440px] px-5 xs:left-[-0px] xs:z-50">
                 <div className="theme-con lg:px-12 lg:py-6">
                     <div className="theme-content ">
-                            <div className="theme-firstSide flex flex-row ">
-                                <div className="lg:w-[250px]">
-                                    <div>
+                        <div className="theme-firstSide flex flex-row xs:flex-col">
+                            <div className="lg:w-[250px] xs:my-1">
+                                    <div className="xs:hidden">
                                         <Heading 
                                             className='theme-categroy'
                                             title={'Help'}
@@ -30,7 +30,7 @@ const HelpDrop = () => {
                                         />
                                     </div>
                             </div>
-                            <div className="lg:mx-8 lg:w-[250px]">
+                            <div className="lg:mx-8 lg:w-[250px] xs:my-1">
                                 <div>
                                     <div>
                                         <Heading 
@@ -56,7 +56,7 @@ const HelpDrop = () => {
                         </div>
                         
                     </div>
-                    <div className="theme-InSide">
+                    <div className="theme-InSide xs:hidden">
                             <div className="w-[500px]">
                                 <Heading 
                                     className='theme-categroy'

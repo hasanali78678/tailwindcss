@@ -81,11 +81,11 @@ const Hover = () => {
                             </div>
                         </div>
                         <div className="theme-Btn-con lg:w-[600px] lg:mt-11">
-                                <Btn 
-                                    className='theme-Btn bg-sky-600 w-[180px] '
-                                    title={'VIEW PLANS'}
-                                />
-                            </div>
+                            <Btn 
+                                className='theme-Btn bg-sky-600 w-[180px] '
+                                title={'VIEW PLANS'}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
