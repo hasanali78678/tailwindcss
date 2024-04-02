@@ -70,10 +70,10 @@ const Shopsli = () => {
                 </div>
                 <div className="absolute lg:top-[310px] md:top-[390px] transform -translate-y-1/2 md:hidden xs:hidden flex justify-between items-center  md:mt-10 md:mb-20 lg:w-[1500px] m-auto font-medium lg:mt-14 lg:mb-16 xs:pt-5 lg:px-3">
                     <button className="button w-[50px] h-[50px] flex justify-center items-center text-[40px] text-[#1cafbe] border-2 border-[#1cafbe]  bg-transparent rounded-full" onClick={previous}>
-                        <i class="fa-solid fa-angle-left"></i>
+                        <i className="fa-solid fa-angle-left"></i>
                     </button>
                     <button className="button w-[50px] h-[50px] flex justify-center items-center text-[40px] text-[#1cafbe] border-2 border-[#1cafbe]  bg-transparent rounded-full" onClick={next}>
-                        <i class="fa-solid fa-angle-right"></i>
+                        <i className="fa-solid fa-angle-right"></i>
                     </button>
                 </div>
             </div>

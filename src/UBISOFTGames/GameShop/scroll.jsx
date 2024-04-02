@@ -31,7 +31,7 @@ const ScrollToTopButton = () => {
     <div>
       {isVisible && (
         <button className="md:hidden xs:hidden w-[40px] h-[40px] flex justify-center fixed right-20 bottom-[40px] items-center text-[30px] text-[#1cafbe] border-2 border-[#1cafbe]  bg-transparent rounded-full" onClick={scrollToTop}>
-            <i class="fa-solid fa-angle-up"></i>
+            <i className="fa-solid fa-angle-up"></i>
         </button>
       )}
     </div>

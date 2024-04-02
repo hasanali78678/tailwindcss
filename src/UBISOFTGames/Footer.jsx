@@ -14,7 +14,7 @@ const Footer = () => {
                          title={'DOWNLOAD UBISOFT CONNECT'}
                     />
                     <div className="w-[140px] h-[50px] flex justify-center items-center cursor-pointer">
-                        <i class="lg:text-[40px] md:text-[30px] xs:text-[30px] mr-2 text-white fa-solid fa-globe"></i>
+                        <i className="lg:text-[40px] md:text-[30px] xs:text-[30px] mr-2 text-white fa-solid fa-globe"></i>
                         <select className="text-white bg-transparent cursor-pointer ">
                             <option value="ENGLISH">ENGLISH</option>
                             <option value="URDU">URDU</option>

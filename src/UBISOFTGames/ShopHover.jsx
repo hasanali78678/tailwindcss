@@ -5,7 +5,7 @@ import MostCard from './ShopMoastP';
 const ShopHover = () => {
     return(
         <React.Fragment>
-            <div class="theme-Play left-[-240px] px-5">
+            <div className="theme-Play left-[-240px] px-5">
                 <div className="theme-con lg:px-12 lg:py-6">
                     <div className="theme-content">
                         <div className="theme-firstSide ">

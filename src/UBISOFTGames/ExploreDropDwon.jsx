@@ -5,7 +5,7 @@ import GameCards from './GameCard'
 const ExploreDrop = () => {
     return(
         <React.Fragment>
-            <div class="theme-Play left-[-340px] pl-5">
+            <div className="theme-Play left-[-340px] pl-5">
                 <div className="theme-con">
                     <div className="theme-content">
                         <div className="theme-firstSide lg:w-[440px]">
@@ -111,7 +111,6 @@ const ExploreDrop = () => {
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </React.Fragment>

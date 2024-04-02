@@ -88,7 +88,7 @@ const ExploreMoreGames = () => {
         <div className=" flex justify-between items-center  md:mt-10 md:mb-20 lg:w-full m-auto font-medium lg:mt-14 lg:mb-16 xs:pt-2">
          
             <button className="button w-[80px] h-[50px] flex justify-end items-center text-[40px] text-[#b9b1c3] hover:text-[#9c999f] bg-[#f5f6f7] hover:bg-[#e1e2e4] border-0 rounded-r-full pr-5" onClick={previous}>
-            <i class="fa-solid fa-angle-left"></i>
+            <i className="fa-solid fa-angle-left"></i>
             </button>
             <Btn
                 className={
@@ -97,7 +97,7 @@ const ExploreMoreGames = () => {
                 title={"VIEW ALL GAMES"}
             />
             <button className="button w-[80px] h-[50px] flex justify-start items-center text-[40px] text-[#b9b1c3] hover:text-[#9c999f] bg-[#f5f6f7] hover:bg-[#e1e2e4] border-0 rounded-l-full pl-5" onClick={next}>
-            <i class="fa-solid fa-angle-right"></i>
+            <i className="fa-solid fa-angle-right"></i>
             </button>
           </div>
       </div>

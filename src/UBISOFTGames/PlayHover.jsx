@@ -4,7 +4,7 @@ import Btn from './Button';
 const Hover = () => {
     return(
         <React.Fragment>
-            <div class="theme-Play lg:left-[-140px] px-5 xs:left-[-0px] xs:z-50">
+            <div className="theme-Play lg:left-[-140px] px-5 xs:left-[-0px] xs:z-50">
                 <div className="theme-con lg:px-12 lg:py-6">
                     <div className="theme-content">
                         <div className="theme-firstSide">
@@ -78,7 +78,6 @@ const Hover = () => {
                                 title={'DISCOVER UBISOFT+'}
                             />
                             <div className="theme-Discover" style={{backgroundImage: `url(https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4tBpf5HvSRBpQS7geVtpOm/511011752152e6d8b4b0530aeb2e7d62/ubi-global_nav-discover_ubi_plus.jpg)`}}>
-
                             </div>
                         </div>
                         <div className="theme-Btn-con lg:w-[600px] lg:mt-11">

@@ -15,31 +15,31 @@ const VisitChannels = () =>{
                     <div className="lg:w-[400px] lg:h-[50px] lg:mx-10 md:h-[60px] xs:h-[60px] flex justify-center items-center md:p-2 xs:p-2">
                         <Btn 
                         className="mx-3  text-black bg-white hover:bg-neutral-400 rounded-[50%]  text-[18px] flex justify-center items-center w-[30px] h-[30px] md:hidden xs:hidden"
-                            title={<i class="fa-brands fa-twitter"></i>}
+                            title={<i className="fa-brands fa-twitter"></i>}
                         />
                         <Btn 
                         className="mx-3 text-black bg-white hover:bg-neutral-400 rounded-[50%]  text-[18px] flex justify-center items-center w-[30px] h-[30px] md:hidden xs:hidden"
-                            title={<i class="fa-brands fa-facebook-f"></i>}
+                            title={<i className="fa-brands fa-facebook-f"></i>}
                         />
                         <Btn 
                         className="mx-3 text-black bg-white hover:bg-neutral-400 rounded-[50%]  text-[18px] flex justify-center items-center w-[30px] h-[30px] md:hidden xs:hidden"
-                            title={<i class="fa-brands fa-twitch"></i>}
+                            title={<i className="fa-brands fa-twitch"></i>}
                         />
                         <Btn 
                         className="mx-3 text-black bg-white hover:bg-neutral-400 rounded-[50%]  text-[18px] flex justify-center items-center w-[30px] h-[30px] md:hidden xs:hidden"
-                            title={<i class="fa-brands fa-youtube"></i>}
+                            title={<i className="fa-brands fa-youtube"></i>}
                         />
                         <Btn 
                         className="mx-3 text-black bg-white hover:bg-neutral-400 rounded-[50%]  text-[18px] flex justify-center items-center w-[30px] h-[30px] md:hidden xs:hidden"
-                            title={<i class="fa-brands fa-instagram"></i>}
+                            title={<i className="fa-brands fa-instagram"></i>}
                         />
                         <Btn 
                         className="lg:mx-3 md:mx-2 xs:mx-2 text-black bg-white hover:bg-neutral-400 rounded-[50%]  lg:text-[18px] md:text-[23px] xs:text-[23px] flex justify-center items-center lg:w-[30px] lg:h-[30px] md:w-[40px] md:h-[40px] xs:w-[40px] xs:h-[40px]"
-                            title={<i class="fa-brands fa-discord"></i>}
+                            title={<i className="fa-brands fa-discord"></i>}
                         />
                         <Btn 
                         className="lg:mx-3 md:mx-2 xs:mx-2 text-black bg-white hover:bg-neutral-400 rounded-[50%]  lg:text-[18px] md:text-[23px] md:w-[40px] md:h-[40px]   xs:text-[23px] flex justify-center items-center lg:w-[30px] lg:h-[30px] xs:w-[40px] xs:h-[40px]"
-                            title={<i class="fa-brands fa-linkedin-in"></i>}
+                            title={<i className="fa-brands fa-linkedin-in"></i>}
                         />
                     </div>
                 </div>
