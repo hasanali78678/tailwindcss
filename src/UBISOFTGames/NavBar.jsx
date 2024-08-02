@@ -13,7 +13,7 @@ export default function NavBar() {
   return (
     <div className="theme-container">
       <div className="theme-header xs:z-50 md:z-50">
-        <div className="theme-toggle ">
+        <div className="theme-toggle">
           <div onClick={() => setOpen(!open)} className="lg:hidden w-[30px]">
             <p>{open ? <i className="fa-solid fa-xmark"></i> : <i className="fa-solid fa-ellipsis-vertical"></i>}</p>
           </div>
@@ -25,41 +25,41 @@ export default function NavBar() {
         <div className={`theme-NavBar ${open ? "flex" : "hidden"} `}>
           <ul className="theme-ul">
             <li className="theme-list group relative">
-              PLAY
+              <span className="cursor-default">PLAY</span>
               <div className="theme-drop-icon">
-              <p onClick={() => {
-                setArrowhover(!arrowhover);
-                // Ensure to hide the shop content when toggling hover content
-                setArrowshop(false);
-                setArrowexplore(false);
-                setArrowhlep(false);
-              }}>
-                {arrowhover ? <i className="fa-solid fa-angle-up md:mb-28 xs:mb-20"></i> : <i className="fa-solid fa-angle-down"></i>}
-              </p>
+                <p onClick={() => {
+                  setArrowhover(!arrowhover);
+                  // Ensure to hide the shop content when toggling hover content
+                  setArrowshop(false);
+                  setArrowexplore(false);
+                  setArrowhlep(false);
+                }}>
+                  {arrowhover ? <i className="fa-solid fa-angle-up md:mb-28 xs:mb-20"></i> : <i className="fa-solid fa-angle-down"></i>}
+                </p>
               </div>
               <div className={`${arrowhover ? "md:flex xs:flex md:h-[140px] xs:h-[80px]" : "md:hidden xs:hidden"} `}>
                 <Hover />
               </div>
             </li>
             <li className="theme-list2 group relative">
-              SHOP
+              <span className="cursor-default">SHOP</span>
               <div className="theme-drop-icon">
-              <p onClick={() => {
-                setArrowshop(!arrowshop);
-                // Ensure to hide the hover content when toggling shop content
-                setArrowhover(false);
-                setArrowexplore(false);
-                setArrowhlep(false);
-              }}>
-                {arrowshop ? <i className="fa-solid fa-angle-up md:mb-40 xs:mb-20"></i> : <i className="fa-solid fa-angle-down"></i>}
-              </p>
-            </div>
-            <div className={`${arrowshop ? "md:flex xs:flex md:h-[200px] xs:h-[100px]" : "md:hidden xs:hidden"} `}>
-              <ShopHover />
-            </div>
+                <p onClick={() => {
+                  setArrowshop(!arrowshop);
+                  // Ensure to hide the hover content when toggling shop content
+                  setArrowhover(false);
+                  setArrowexplore(false);
+                  setArrowhlep(false);
+                }}>
+                  {arrowshop ? <i className="fa-solid fa-angle-up md:mb-40 xs:mb-20"></i> : <i className="fa-solid fa-angle-down"></i>}
+                </p>
+              </div>
+              <div className={`${arrowshop ? "md:flex xs:flex md:h-[200px] xs:h-[100px]" : "md:hidden xs:hidden"} `}>
+                <ShopHover />
+              </div>
             </li>
             <li className="theme-list2 group relative">
-              EXPLORE
+              <span className="cursor-default">EXPLORE</span>
               <p onClick={() => {
                 setArrowexplore(!arrowexplore);
                 // Ensure to hide the hover content when toggling explore content
@@ -70,11 +70,11 @@ export default function NavBar() {
                 {arrowexplore ? <i className="fa-solid fa-angle-up"></i> : <i className="fa-solid fa-angle-down"></i>}
               </p>
               <div className={`${arrowexplore ? "md:flex xs:flex md:h-[500px] xs:h-[300px]" : "md:hidden xs:hidden"} `}>
-              <ExploreDrop />
+                <ExploreDrop />
               </div>
             </li>
             <li className="theme-list2 group relative">
-              HELP
+              <span className="cursor-default">HELP</span>
               <p onClick={() => {
                 setArrowhlep(!arrowhlep);
                 // Ensure to hide the hover content when toggling hlep content
@@ -85,7 +85,7 @@ export default function NavBar() {
                 {arrowhlep ? <i className="fa-solid fa-angle-up"></i> : <i className="fa-solid fa-angle-down"></i>}
               </p>
               <div className={`${arrowhlep ? "md:flex xs:flex md:h-[340px] xs:h-[350px]" : "md:hidden xs:hidden"} `}>
-              <HelpDrop />
+                <HelpDrop />
               </div>
             </li>
           </ul>
