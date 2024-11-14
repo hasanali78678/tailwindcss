@@ -1,4 +1,0 @@
-<ul class="d-flex">
-	<li><i class="fa-solid fa-house"></i></li>
-	<p class="text-secondary mx-2 mt-2" id="treatmentDetails"></p>
-</ul>
