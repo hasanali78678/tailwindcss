@@ -1,12 +1,12 @@
-import React from "react";
-import GamesFilter from "./GamesFilter";
-const Game = () =>{
-    return(
+import React from 'react';
+import GamesFilter from './GamesFilter';
+const Game = () => {
+  return (
     <React.Fragment>
-        <div>
-            <GamesFilter />
-        </div>
+      <div>
+        <GamesFilter />
+      </div>
     </React.Fragment>
-    );
-}
+  );
+};
 export default Game;
